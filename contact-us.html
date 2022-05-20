@@ -23,16 +23,16 @@
                 </div>
                 <ul class="nav-list">
                     <li class="nav-list-item">
-                        <a href="#">ГЛАВНАЯ</a>
+                        <a href="index.html">ГЛАВНАЯ</a>
                     </li>
                     <li class="nav-list-item">
-                        <a href="#">О СТУДИИ</a>
+                        <a href="about.html">О СТУДИИ</a>
                     </li>
                     <li class="nav-list-item">
-                        <a href="#">УСЛУГИ</a>
+                        <a href="services.html">УСЛУГИ</a>
                     </li>
                     <li class="nav-list-item">
-                        <a href="#">КОНТАКТЫ</a>
+                        <a href="contact-us.html">КОНТАКТЫ</a>
                     </li>
                 </ul>
             </nav>
@@ -60,29 +60,33 @@
             <div class="container">
                 <div class="contact-us-container">
                     <div>
-                        <div>
-                            <h1>Контакты:</h1>
-                            <p>E-mail: loft@mail.ru</p>
-                            <p>Телефон: +7 954 435-67-54</p>
+                        <div class="contact-us-item">
+                            <h1 class="contact-us-title">Контакты:</h1>
+                            <p class="contact-us-desc">E-mail: loft@mail.ru</p>
+                            <p class="contact-us-desc">Телефон: +7 954 435-67-54</p>
                         </div>
 
-                        <div>
-                            <h1>Адрес:</h1>
-                            <p>Адрес: г. Курган, ул. Куйбешева 34, д. 40</p>
+                        <div class="contact-us-item">
+                            <h1 class="contact-us-title">Адрес:</h1>
+                            <p class="contact-us-desc">Адрес: г. Курган, ул. Куйбешева 34, д. 40</p>
                         </div>
 
-                        <div>
-                            <h1>Соц. сети:</h1>
-                            <p>VK: vk.com/loft</p>
-                            <p>Twitter: twitter.com/loft_studio</p>
-                            <p>Facebook: facebook.com/loft_studio</p>
+                        <div class="contact-us-item">
+                            <h1 class="contact-us-title">Соц. сети:</h1>
+                            <p class="contact-us-desc">VK: vk.com/loft</p>
+                            <p class="contact-us-desc">Twitter: twitter.com/loft_studio</p>
+                            <p class="contact-us-desc">Facebook: facebook.com/loft_studio</p>
                         </div>
                     </div>
-                    <div>
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
+                    <div class="contact-us-CS">
+                        <div class="contact-us-pesonal-data">
+                            <input type="text" class="contact-us-input" placeholder="Фамилия">
+                            <input type="text" class="contact-us-input" placeholder="Имя">
+                            <input type="text" class="contact-us-input" placeholder="Электронная почта">
+                        </div>
+                        <div>
+                            <textarea name="" id="" cols="30" rows="10" class="contact-us-message"></textarea>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,11 +110,12 @@
                         Адрес: г. Курган, ул. Куйбешева 34, д. 40</p>
                 </div>
 
-                <div class="footer-item contact-us">
+                <div class="footer-item footer-contact-us">
                     <h2>Связаться с нами</h2>
-                    <input type="text" placeholder="Ваш e-mail">
-                    <input type="text" placeholder="Сообщение..." class="message">
-                    <input type="submit">
+                    <input type="text" placeholder="Ваш e-mail" class="footer-input footer-input-email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение..."
+                        class="footer-input footer-input-message"></textarea>
+                    <input type="submit" class="footer-input footer-input-send-btn">
                 </div>
             </div>
         </div>

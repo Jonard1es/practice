@@ -24,6 +24,7 @@ a {
     background-color: rgba(0, 0, 0, 95%);
     padding-top: 10px;
     padding-bottom: 10px;
+    top: 0;
     z-index: 10;
 }
 
@@ -59,8 +60,18 @@ a {
     margin-right: 0;
 }
 
+
+.slider {
+    width: 100%;
+}
+
 .slide {
     z-index: 0;
+    display: none;
+}
+
+.active {
+    display: block;
 }
 
 .slider-text {
@@ -69,14 +80,28 @@ a {
     background-color: rgba(0, 0, 0, 90%);
     max-width: 600px;
     padding: 60px 80px 80px 80px;
-    top: 35%;
+    top: 25%;
     left: 10%;
     z-index: 1;
+}
+
+.slider-services-list {
+    margin-top: 15px;
+    list-style: none;
+}
+
+.slider-services-list-item {
+    font-size: 24px;
+}
+
+.slider-services-list-item:before {
+    content: "— ";
 }
 
 .slide-title {
     font-weight: normal;
     font-size: 60px;
+    line-height: 60px;
 }
 
 .slide-desc {
@@ -85,11 +110,6 @@ a {
 
 .slider-img {
     width: 100%;
-}
-
-.second-slide,
-.third-slide {
-    visibility: hidden;
 }
 
 .about {
@@ -155,10 +175,10 @@ a {
 }
 
 .service {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    margin-bottom: 70px;
 }
 
 .services-title {
@@ -210,6 +230,8 @@ a {
 }
 
 .other-services-btn {
+    margin-top: 40px;
+    margin-bottom: 70px;
     text-align: center;
 }
 
@@ -232,10 +254,31 @@ a {
 
 .contact-us {
     display: flex;
-
     flex-direction: column;
 }
 
-.message {
-    min-height: 100px;
+.footer-input {
+    margin-bottom: 5px;
+    bottom: none;
+    padding: 5px 5px 5px 5px;
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+
+.footer-input-send-btn {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-input-send-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-input-message {
+    resize: none;
 }

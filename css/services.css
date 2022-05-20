@@ -89,6 +89,7 @@ a {
 .footer {
     color: #fff;
     background: url(../img/footer-pic.jpg);
+    bottom: 0;
 }
 
 .footer-container {
@@ -104,10 +105,31 @@ a {
 
 .contact-us {
     display: flex;
-
     flex-direction: column;
 }
 
-.message {
-    min-height: 100px;
+.footer-input {
+    margin-bottom: 5px;
+    bottom: none;
+    padding: 5px 5px 5px 5px;
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+
+.footer-input-send-btn {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-input-send-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-input-message {
+    resize: none;
 }

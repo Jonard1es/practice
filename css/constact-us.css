@@ -68,6 +68,55 @@ a {
     align-items: center;
 }
 
+.contact-us {
+    background-color: #D5D5D5;
+    padding: 70px;
+}
+
+.contact-us-title {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.contact-us-desc {
+    font-size: 24px;
+}
+
+.contact-us-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us-item {
+    margin-top: 15px;
+}
+
+.contact-us-CS {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    width: 100%;
+}
+
+.contact-us-pesonal-data {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+.contact-us-input {
+    padding: 5px;
+    margin: 0;
+}
+
+.contact-us-message {
+    margin-top: 15px;
+    resize: none;
+    width: 700px;
+    height: 260px;
+    padding: 5px;
+}
+
 .about-text {
     max-width: 600px;
 }
@@ -80,8 +129,6 @@ a {
 .about-desc {
     font-size: 30px;
 }
-
-
 
 .footer {
     color: #fff;
@@ -100,12 +147,32 @@ a {
     max-width: 500px;
 }
 
-.contact-us {
+.footer-contact-us {
     display: flex;
-
     flex-direction: column;
 }
 
-.message {
-    min-height: 100px;
+.footer-input {
+    margin-bottom: 5px;
+    bottom: none;
+    padding: 5px;
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+.footer-input-send-btn {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-input-send-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-input-message {
+    resize: none;
 }
