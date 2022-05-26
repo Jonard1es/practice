@@ -45,11 +45,8 @@ a {
     font-size: 20px;
 }
 
-.nav-list-item:hover:after {
-    content: "";
-    display: block;
-    height: 1px;
-    background-color: #fff;
+.nav-list-item a:hover{
+    border-bottom: 1px solid #FFF;
 }
 
 .nav-list-item a {
